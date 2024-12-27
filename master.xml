@@ -6,14 +6,18 @@
     </listeners>
 	
   <test thread-count="5" name="Test">
-	   <parameter name="browser" value="edge" />
+	   <parameter name="browser" value="chrome" />
 	   <parameter name="os" value="windows"/>
     <classes>
      <!-- <class name="com.luma.testCases.TC_001_CreateAccount"/> 
      
      <class name="com.luma.testCases.TC_002_login"/> 
-    <class name="com.luma.testCases.TC_003_AddToCartWithOutLoginTest"/> -->
-    <class name="com.luma.testCases.TC_004_CreateByUsingSignInLink"/>
+    <class name="com.luma.testCases.TC_003_AddToCartWithOutLoginTest"/> 
+    <class name="com.luma.testCases.TC_004_CreateByUsingSignInLink"/>-->
+    
+    <class name="com.luma.testCases.TC_005_AddToCart_and_delete"/>
+    
+    
      
      
     </classes>

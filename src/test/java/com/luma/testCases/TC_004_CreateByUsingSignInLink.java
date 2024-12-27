@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import com.luma.base.BaseClass;
 import com.luma.pageObjects.CreateNewCustomerAccountpage;
 import com.luma.pageObjects.CustomerLoginPage;
-import com.luma.pageObjects.HomePage;
+import com.luma.pageObjects.HomePage1;
 import com.luma.pageObjects.MyAccountPage;
 import com.luma.utilities.TestDataUtils;
 
@@ -18,7 +18,7 @@ public class TC_004_CreateByUsingSignInLink extends BaseClass {
 
 	@Test(groups = { "regression" })
 	public void createCusBysignin() {
-		HomePage hp = new HomePage(driver);
+		HomePage1 hp = new HomePage1(driver);
 
 		hp.clickSignInLink();
 

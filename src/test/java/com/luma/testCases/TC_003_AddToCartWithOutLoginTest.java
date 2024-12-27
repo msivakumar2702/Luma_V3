@@ -1,6 +1,7 @@
 package com.luma.testCases;
 
 import org.testng.annotations.Test;
+
 import com.luma.base.BaseClass;
 import com.luma.pageObjects.HomePage;
 import com.luma.pageObjects.JaketTopsMenPage;
@@ -12,9 +13,9 @@ public class TC_003_AddToCartWithOutLoginTest extends BaseClass {
     public void verifyAddToCartWithoutLogin() throws InterruptedException {
         HomePage hp = new HomePage(driver);
         Thread.sleep(3000);
-        hp.toHoverMemMenu();
-        hp.toHoverTopsSubMenu();
-        hp.toClickJacketsOption();
+        hp.hoverAndSelect("men","tops","jackets");
+       // hp.toHoverTopsSubMenu();
+        //hp.toClickJacketsOption();
 
         // Instantiate the JaketTopsMenPage
         JaketTopsMenPage jtp = new JaketTopsMenPage(driver);

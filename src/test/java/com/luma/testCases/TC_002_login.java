@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import com.luma.base.BaseClass;
 import com.luma.pageObjects.CustomerLoginPage;
 import com.luma.pageObjects.DashBoardPage;
-import com.luma.pageObjects.HomePage;
+import com.luma.pageObjects.HomePage1;
 import com.luma.utilities.DataProviders;
 
 public class TC_002_login extends BaseClass {
@@ -16,7 +16,7 @@ public class TC_002_login extends BaseClass {
     public void verifyLogin(String firstName, String lastName, String email, String pwd) throws InterruptedException {
    // public void verifyLogin() { 
         // Navigate to the home page and click on SignIn link
-        HomePage hp = new HomePage(driver);
+        HomePage1 hp = new HomePage1(driver);
         hp.clickSignInLink();
         
         // Navigate to the login page

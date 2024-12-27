@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import com.luma.base.BaseClass;
 import com.luma.pageObjects.CreateNewCustomerAccountpage;
-import com.luma.pageObjects.HomePage;
+import com.luma.pageObjects.HomePage1;
 import com.luma.pageObjects.MyAccountPage;
 import com.luma.utilities.ExcelUtils;
 import com.luma.utilities.FilePaths;
@@ -26,7 +26,7 @@ public class TC_001_CreateAccount extends BaseClass{
         
 
         // Navigate to the account creation page
-        HomePage hp = new HomePage(driver);
+        HomePage1 hp = new HomePage1(driver);
         hp.clickCreateAnAccountLink();
 
         // Fill in the account details

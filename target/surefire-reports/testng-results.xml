@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-12T20:35:12 IST" name="Luma Functional Suite" finished-at="2024-12-12T20:35:42 IST" duration-ms="30648">
+  <suite started-at="2024-12-27T16:24:56 IST" name="Luma Functional Suite" finished-at="2024-12-27T16:25:26 IST" duration-ms="30613">
     <groups>
       <group name="dataDriven">
         <method signature="TC_002_login.verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.luma.testCases.TC_002_login@1b45c0e]" name="verifyLogin" class="com.luma.testCases.TC_002_login"/>
       </group> <!-- dataDriven -->
     </groups>
-    <test started-at="2024-12-12T20:35:12 IST" name="Sanity Tests" finished-at="2024-12-12T20:35:42 IST" duration-ms="30648">
+    <test started-at="2024-12-27T16:24:56 IST" name="Sanity Tests" finished-at="2024-12-27T16:25:26 IST" duration-ms="30613">
       <class name="com.luma.testCases.TC_002_login">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.luma.testCases.TC_002_login@1b45c0e]" started-at="2024-12-12T20:35:12 IST" name="setup" finished-at="2024-12-12T20:35:18 IST" duration-ms="6320" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.luma.testCases.TC_002_login@1b45c0e]" started-at="2024-12-27T16:24:56 IST" name="setup" finished-at="2024-12-27T16:25:02 IST" duration-ms="6046" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.luma.testCases.TC_002_login@1b45c0e]" started-at="2024-12-12T20:35:19 IST" name="verifyLogin" data-provider="LoginData1" finished-at="2024-12-12T20:35:31 IST" duration-ms="11242" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.luma.testCases.TC_002_login@1b45c0e]" started-at="2024-12-27T16:25:03 IST" name="verifyLogin" data-provider="LoginData1" finished-at="2024-12-27T16:25:14 IST" duration-ms="11480" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.luma.testCases.TC_002_login@1b45c0e]" started-at="2024-12-12T20:35:31 IST" name="verifyLogin" data-provider="LoginData1" finished-at="2024-12-12T20:35:42 IST" duration-ms="11681" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.luma.testCases.TC_002_login@1b45c0e]" started-at="2024-12-27T16:25:14 IST" name="verifyLogin" data-provider="LoginData1" finished-at="2024-12-27T16:25:26 IST" duration-ms="11925" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.luma.testCases.TC_002_login@1b45c0e]" started-at="2024-12-12T20:35:42 IST" name="tearDown" finished-at="2024-12-12T20:35:42 IST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.luma.testCases.TC_002_login@1b45c0e]" started-at="2024-12-27T16:25:26 IST" name="tearDown" finished-at="2024-12-27T16:25:26 IST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
